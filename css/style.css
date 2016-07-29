@@ -1,0 +1,165 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(../gallery/neutrino-observatory-header-image.jpg);
+  font-family: 'Lato', sans-serif;
+  background-size: cover;
+}
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 2%;
+}
+#logo {
+  padding-left: 1%;
+}
+#menu{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+#menu li{
+  margin-right: 20px;
+}
+#menu li a{
+  text-decoration: none;
+  color: #fff;
+}
+#create{
+  border-color: rgba(255,255,255, 0.5);
+  border-radius: 2px;
+  border-style: solid;
+  color: rgba(255,255,255, 0.4);
+  background-color: transparent;
+  padding-bottom: 10px;
+}
+.entete{
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  margin-top: 13%;
+}
+.entete h1{
+  font-size: 57.7667px;
+  margin-bottom: -0.3%;
+}
+.underline{
+  width: 200px;
+  padding-left: 10%;
+  margin-left: 5%;
+}
+.newteam{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  background: rgba(0,0,0,.65);
+  padding: 19px 56px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 8px;
+
+}
+.newteam #textarea{
+  width: 240px;
+  margin-right: 3%;
+  padding: .743rem;
+  font-size: 1.249rem;
+}
+.newteam #creatent{
+  background-color: #56B68B;
+  border-radius: 4px;
+  border-color:  #56B68B;
+  border-style: solid;
+  width: 184px;
+  color: white;
+}
+.newteam p{
+  color: white;
+}
+.newteam p a{
+  color: white;
+}
+.mark{
+  margin-top: 5%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  color: white;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+.mark h4{
+  margin: 0;
+}
+.fouteur{
+  margin: 0
+  width: 100%;
+  height: 180px;
+  padding-top: 40px;
+  padding-left: 90px;
+  padding-right: 90px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 43%, rgba(0,0,0,0.9) 100%);
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 43%,rgba(0,0,0,0.9) 100%);
+background: linear-gradient(to bottom, rgba(0,0,0,0) 43%,rgba(0,0,0,0.9) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#e6000000',GradientType=0 );
+}
+
+
+
+.copy{
+  float: left;
+  margin-left: 90px;
+}
+ul{
+  list-style: none;
+}
+.copy li{
+  padding-top: 5%;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13.1167px;
+}
+.copy h1{
+  color: white;
+  font-weight: 700;
+  font-size: 11px;
+}
+footer{
+  background-color: #1E1E1E;
+  display: flex;
+  align-items: center;
+}
+
+}
+.badem{
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: space-around;
+}
+.badem #pitilogo {
+  display: flex;
+  align-items: center;
+  margin-top: 50%;
+  color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (max-width: 700) {
+  .nav{
+    display: none;
+  }
+  .fouteur{
+    display: none;
+  }
+  footer{
+    display: none;
+  }
+}
